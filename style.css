@@ -2,12 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  font-family: 'Rubik', sans-serif;
+    background-color: white;
 }
 a {
     padding: .5em;
 }
+
+/* a:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 66%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(79, 192, 141, 0.5);
+} */
 
 a:hover{
     border-radius: 1em;
